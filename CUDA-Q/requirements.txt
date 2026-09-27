@@ -1,0 +1,7 @@
+# Pin the CUDA 12 binary explicitly. The generic `cudaq` selector rejects the
+# host's legacy CUDA 11.6 driver even though this playground uses qpp-cpu.
+cuda-quantum-cu12==0.16.0.post1
+jupyterlab==4.6.4
+ipykernel>=7.0,<8
+matplotlib>=3.10,<4
+numpy>=2.0,<3

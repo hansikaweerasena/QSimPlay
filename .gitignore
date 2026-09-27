@@ -1,0 +1,47 @@
+# Python virtual environments (at any repository depth)
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+
+# Python caches and generated packages
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter and IPython runtime files
+.ipynb_checkpoints/
+.ipython/
+.jupyter-runtime/
+.jupyter/
+
+# Local tooling and editor state
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.pid
+*.tmp
+*.temp
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
